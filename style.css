@@ -1,0 +1,97 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  line-height: auto;
+  font-style: normal;
+  
+}
+
+
+body {
+  background-color: #F5F4F0;
+
+}
+#page {
+  box-sizing: border-box;
+  width: 1140px;
+  height: auto;
+   margin: auto;   
+}
+.img1{
+  margin: 40px;
+
+}
+img {
+  border-radius: 28px;  
+  width: 100%; 
+}
+
+main div img {
+  height: 375px;
+  object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
+  margin-top: 44px;
+}
+.headline {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold; 
+  color: #e1624f;
+  text-transform: uppercase; 
+}
+
+ 
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 36px;
+  font-weight: bold;
+
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 32px;
+  font-weight: bold;
+
+}
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+.Descrition {   
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  color: #333333;
+  margin-bottom:40px;
+}
+
+ul{
+  margin-bottom: 40px;
+}
+ul li::marker {
+  color:  #333333;
+
+}
+.space {
+  margin-bottom: 64px;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9da;
+}
+footer {
+  color: #333333;
+  text-align: center;
+  padding-bottom: 48px;
+  margin: 40px;
+} 
+footer img {
+  vertical-align: middle;
+  width: 14px;
+  }
